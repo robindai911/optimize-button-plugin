@@ -1,0 +1,28 @@
+{
+  "name": "dsh-prompt-optimizer",
+  "version": "0.5.0",
+  "private": true,
+  "description": "Adds an \"optimize prompt\" button to the DSH composer that rewrites the current draft with the session model, so the task is executed more precisely.",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": { "default": "./lib/index.js" },
+    "./client": { "default": "./lib/client.js" },
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "client": {
+      "platform": "web"
+    }
+  },
+  "files": [
+    "lib",
+    "README.md"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "prompt",
+    "composer"
+  ]
+}
